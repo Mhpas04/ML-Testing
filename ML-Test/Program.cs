@@ -1,9 +1,7 @@
-
-
+﻿using ML_TestML.Model;
 using System;
-using ML_NET_TESTML.Model;
 
-namespace ML_NET_TESTML.ConsoleApp
+namespace ML_Test
 {
     class Program
     {

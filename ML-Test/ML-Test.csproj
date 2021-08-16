@@ -3,11 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>ML.NET_TEST</RootNamespace>
+    <RootNamespace>ML_Test</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ML.NET TESTML.Model\ML.NET TESTML.Model.csproj" />
+    <ProjectReference Include="..\ML-TestML.Model\ML-TestML.Model.csproj" />
   </ItemGroup>
 
 </Project>
