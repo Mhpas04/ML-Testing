@@ -27,7 +27,7 @@ namespace ML_NET_TESTML.Model
             MLContext mlContext = new MLContext();
 
             // Load model & create prediction engine
-            string modelPath = @"C:\Users\Michel\AppData\Local\Temp\MLVSTools\ML.NET TESTML\ML.NET TESTML.Model\MLModel.zip";
+            string modelPath = @"<your path>\MLVSTools\ML.NET TESTML\ML.NET TESTML.Model\MLModel.zip";
             ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
             var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
 
