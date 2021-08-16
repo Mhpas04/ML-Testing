@@ -12,8 +12,8 @@ namespace ML_NET_TESTML.ConsoleApp
 {
     public static class ModelBuilder
     {
-        private static string TRAIN_DATA_FILEPATH = @"C:\Users\Michel\source\repos\ML.NET TEST\ML.NET TEST\yelp_labelled.txt";
-        private static string MODEL_FILEPATH = @"C:\Users\Michel\AppData\Local\Temp\MLVSTools\ML.NET TESTML\ML.NET TESTML.Model\MLModel.zip";
+        private static string TRAIN_DATA_FILEPATH = @"<your path>\source\repos\ML.NET TEST\ML.NET TEST\yelp_labelled.txt";
+        private static string MODEL_FILEPATH = @"<your path>\AppData\Local\Temp\MLVSTools\ML.NET TESTML\ML.NET TESTML.Model\MLModel.zip";
         // Create MLContext to be shared across the model creation workflow objects 
         // Set a random seed for repeatable/deterministic results across multiple trainings.
         private static MLContext mlContext = new MLContext(seed: 1);
